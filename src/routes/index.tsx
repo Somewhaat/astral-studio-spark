@@ -4,7 +4,7 @@ import logoAsset from "@/assets/halfa-logo.png.asset.json";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Halfa Media — Unlimited Video Editing With A Single Subscription" },
+      { title: "Halfa Media - Video Editing Agency" },
       { name: "description", content: "Unlimited video editing with a single subscription. Short-form, long-form, podcasts — delivered as fast as 24 hours." },
       { property: "og:title", content: "Halfa Media — Unlimited Video Editing" },
       { property: "og:description", content: "We handle the editing while you focus on growing." },
@@ -41,7 +41,7 @@ const REELS = [
 ];
 
 const STATS = [
-  { num: "40+", label: "Active Clients" },
+  { num: "40+", label: "Clients" },
   { num: "1000+", label: "Videos Delivered" },
   { num: "5x", label: "Avg. Engagement Growth" },
 ];
@@ -284,7 +284,10 @@ function Footer() {
           <img src={logoAsset.url} alt="Halfa Media" className="h-7 w-auto" />
           <span className="font-display tracking-wide">HALFA MEDIA</span>
         </div>
-        <div>© {new Date().getFullYear()} Halfa Media. All rights reserved.</div>
+        <div className="flex items-center gap-6">
+          <a href="https://www.instagram.com/salmans_work/" target="_blank" rel="noreferrer" className="hover:text-primary transition">Instagram</a>
+          <span>© {new Date().getFullYear()} Halfa Media. All rights reserved.</span>
+        </div>
       </div>
     </footer>
   );
