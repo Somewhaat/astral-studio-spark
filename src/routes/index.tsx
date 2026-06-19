@@ -1,5 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import logoAsset from "@/assets/halfa-logo.png.asset.json";
+import codeBenderVideo from "@/assets/testimonials/code-bender.mp4.asset.json";
+import garyGillVideo from "@/assets/testimonials/gary-gill.mp4.asset.json";
+import rileyVideo from "@/assets/testimonials/riley-romacker.mp4.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -47,9 +50,9 @@ const STATS = [
 ];
 
 const TESTIMONIALS = [
-  { name: "The Code Bender", role: "Founder & Creator", quote: "Halfa took editing off my plate entirely. My output tripled within a month and the quality is sharper than what I was producing myself." },
-  { name: "Gary Gill", role: "Entrepreneur", quote: "The turnaround is unreal. I send raw footage at night, wake up to edited reels ready to post. Best subscription I pay for." },
-  { name: "Riley Romacker", role: "Content Creator", quote: "Hooks land, pacing is tight, captions are clean. It feels like having an in-house editor without the overhead." },
+  { name: "The Code Bender", role: "Founder & Creator", video: codeBenderVideo.url },
+  { name: "Gary Gill", role: "Entrepreneur", video: garyGillVideo.url },
+  { name: "Riley Romacker", role: "Content Creator", video: rileyVideo.url },
 ];
 
 const FAQ = [
@@ -223,13 +226,21 @@ function Testimonials() {
       <h2 className="font-display text-5xl md:text-7xl uppercase mt-3 mb-14">What Our Clients Say</h2>
       <div className="grid md:grid-cols-3 gap-6">
         {TESTIMONIALS.map((t) => (
-          <blockquote key={t.name} className="rounded-2xl border border-border bg-card p-8">
-            <p className="text-lg leading-relaxed">“{t.quote}”</p>
-            <footer className="mt-6">
+          <figure key={t.name} className="rounded-2xl border border-border bg-card overflow-hidden">
+            <div className="aspect-video w-full bg-black">
+              <video
+                src={t.video}
+                controls
+                preload="metadata"
+                playsInline
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <figcaption className="p-6">
               <div className="font-semibold">{t.name}</div>
               <div className="text-sm text-muted-foreground">{t.role}</div>
-            </footer>
-          </blockquote>
+            </figcaption>
+          </figure>
         ))}
       </div>
     </section>
