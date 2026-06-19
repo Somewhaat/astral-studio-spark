@@ -224,10 +224,10 @@ function Testimonials() {
     <section className="mx-auto max-w-7xl px-6 py-24 md:py-32">
       <span className="text-xs uppercase tracking-[0.3em] text-muted-foreground">Word of Mouth</span>
       <h2 className="font-display text-5xl md:text-7xl uppercase mt-3 mb-14">What Our Clients Say</h2>
-      <div className="grid md:grid-cols-3 gap-6">
+      <div className="grid md:grid-cols-3 gap-6 justify-items-center">
         {TESTIMONIALS.map((t) => (
-          <figure key={t.name} className="rounded-2xl border border-border bg-card overflow-hidden">
-            <div className="aspect-video w-full bg-black">
+          <figure key={t.name} className="rounded-2xl border border-border bg-card overflow-hidden w-full max-w-sm">
+            <div className="aspect-[9/16] w-full bg-black">
               <video
                 src={t.video}
                 controls
