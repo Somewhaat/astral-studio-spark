@@ -81,10 +81,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Unlimited video editing with a single subscription. We handle the editing while you focus on growing." },
       { name: "author", content: "Halfa Media" },
       { property: "og:title", content: "Halfa Media — Unlimited Video Editing" },
-      { property: "og:description", content: "Unlimited video editing with a single subscription." },
+      { property: "og:description", content: "Unlimited video editing with a single subscription. We handle the editing while you focus on growing." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@halfamedia" },
+      { name: "twitter:title", content: "Halfa Media — Unlimited Video Editing" },
+      { name: "twitter:description", content: "Unlimited video editing with a single subscription. We handle the editing while you focus on growing." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/be93dee8-49f5-47db-819e-3d90e870a3c2/id-preview-290835fa--b2398b49-4c45-4a65-851e-0cf5c67fe172.lovable.app-1781802839128.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/be93dee8-49f5-47db-819e-3d90e870a3c2/id-preview-290835fa--b2398b49-4c45-4a65-851e-0cf5c67fe172.lovable.app-1781802839128.png" },
     ],
     links: [
       {
