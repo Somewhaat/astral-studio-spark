@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import logoAsset from "@/assets/halfa-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -81,7 +82,7 @@ function Nav() {
     <header className="sticky top-0 z-50 backdrop-blur-md bg-background/70 border-b border-border">
       <div className="mx-auto max-w-7xl px-6 h-16 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-3">
-          <span className="h-8 w-8 rounded-md bg-primary text-primary-foreground grid place-items-center font-display text-lg">HM</span>
+          <img src={logoAsset.url} alt="Halfa Media" className="h-9 w-auto" />
           <span className="font-display text-xl tracking-wide">HALFA MEDIA</span>
         </a>
         <a href={CALENDLY} target="_blank" rel="noreferrer"
@@ -280,7 +281,7 @@ function Footer() {
     <footer className="border-t border-border">
       <div className="mx-auto max-w-7xl px-6 py-10 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
         <div className="flex items-center gap-3">
-          <span className="h-7 w-7 rounded-md bg-primary text-primary-foreground grid place-items-center font-display text-sm">HM</span>
+          <img src={logoAsset.url} alt="Halfa Media" className="h-7 w-auto" />
           <span className="font-display tracking-wide">HALFA MEDIA</span>
         </div>
         <div>© {new Date().getFullYear()} Halfa Media. All rights reserved.</div>
