@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "155cee66-5df1-48af-b300-d7be63039c16",
-  "project_id": "b2398b49-4c45-4a65-851e-0cf5c67fe172",
-  "url": "/__l5e/assets-v1/155cee66-5df1-48af-b300-d7be63039c16/gary-gill.mp4",
-  "r2_key": "a/v1/b2398b49-4c45-4a65-851e-0cf5c67fe172/155cee66-5df1-48af-b300-d7be63039c16/gary-gill.mp4",
-  "original_filename": "gary-gill.mp4",
-  "size": 49668080,
   "content_type": "video/mp4",
-  "created_at": "2026-06-19T19:43:54Z"
+  "created_at": "2026-06-19T19:43:54Z",
+  "original_filename": "gary-gill.mp4",
+  "project_id": "8d31dcbd-ee88-49bc-ab70-df7eac236020",
+  "r2_key": "a/v1/8d31dcbd-ee88-49bc-ab70-df7eac236020/155cee66-5df1-48af-b300-d7be63039c16/gary-gill.mp4",
+  "size": 49668080,
+  "url": "/__l5e/assets-v1/155cee66-5df1-48af-b300-d7be63039c16/gary-gill.mp4",
+  "version": 1
 }

@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "d220eb6b-8ffc-49a1-90e0-3986cc1058e1",
-  "project_id": "b2398b49-4c45-4a65-851e-0cf5c67fe172",
-  "url": "/__l5e/assets-v1/d220eb6b-8ffc-49a1-90e0-3986cc1058e1/code-bender.mp4",
-  "r2_key": "a/v1/b2398b49-4c45-4a65-851e-0cf5c67fe172/d220eb6b-8ffc-49a1-90e0-3986cc1058e1/code-bender.mp4",
-  "original_filename": "code-bender.mp4",
-  "size": 104239274,
   "content_type": "video/mp4",
-  "created_at": "2026-06-19T19:43:49Z"
+  "created_at": "2026-06-19T19:43:49Z",
+  "original_filename": "code-bender.mp4",
+  "project_id": "8d31dcbd-ee88-49bc-ab70-df7eac236020",
+  "r2_key": "a/v1/8d31dcbd-ee88-49bc-ab70-df7eac236020/d220eb6b-8ffc-49a1-90e0-3986cc1058e1/code-bender.mp4",
+  "size": 104239274,
+  "url": "/__l5e/assets-v1/d220eb6b-8ffc-49a1-90e0-3986cc1058e1/code-bender.mp4",
+  "version": 1
 }
