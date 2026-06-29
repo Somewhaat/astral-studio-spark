@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import logoAsset from "@/assets/halfa-logo.png.asset.json";
+import logoUrl from "@/assets/halfa-logo.png";
 import codeBenderVideo from "@/assets/testimonials/code-bender.mp4.asset.json";
 import garyGillVideo from "@/assets/testimonials/gary-gill.mp4.asset.json";
 import rileyVideo from "@/assets/testimonials/riley-romacker.mp4.asset.json";
