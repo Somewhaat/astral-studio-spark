@@ -1,8 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
 import logoUrl from "@/assets/halfa-logo.png";
-import codeBenderVideo from "@/assets/testimonials/code-bender.mp4.asset.json";
-import garyGillVideo from "@/assets/testimonials/gary-gill.mp4.asset.json";
-import rileyVideo from "@/assets/testimonials/riley-romacker.mp4.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -50,9 +47,9 @@ const STATS = [
 ];
 
 const TESTIMONIALS = [
-  { name: "The Code Bender", role: "Founder & Creator", video: codeBenderVideo.url },
-  { name: "Gary Gill", role: "Entrepreneur", video: garyGillVideo.url },
-  { name: "Riley Romacker", role: "Content Creator", video: rileyVideo.url },
+  { name: "The Code Bender", role: "Founder & Creator", video: "https://res.cloudinary.com/duldt7yoj/video/upload/v1782711486/code-bender_c3b5lq.mp4" },
+  { name: "Gary Gill", role: "Entrepreneur", video: "https://res.cloudinary.com/duldt7yoj/video/upload/v1782711458/gary-gill_i9wvvn.mp4" },
+  { name: "Riley Romacker", role: "Content Creator", video: "https://res.cloudinary.com/duldt7yoj/video/upload/v1782711440/riley-romacker_atqopm.mp4" },
 ];
 
 const FAQ = [
