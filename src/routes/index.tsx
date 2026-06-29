@@ -85,7 +85,7 @@ function Nav() {
     <header className="sticky top-0 z-50 backdrop-blur-md bg-background/70 border-b border-border">
       <div className="mx-auto max-w-7xl px-6 h-16 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-3">
-          <img src={logoAsset.url} alt="Halfa Media" className="h-9 w-auto" />
+          <img src={logoUrl} alt="Halfa Media" className="h-9 w-auto" />
           <span className="font-display text-xl tracking-wide">HALFA MEDIA</span>
         </a>
         <a href={CALENDLY} target="_blank" rel="noreferrer"
@@ -292,7 +292,7 @@ function Footer() {
     <footer className="border-t border-border">
       <div className="mx-auto max-w-7xl px-6 py-10 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
         <div className="flex items-center gap-3">
-          <img src={logoAsset.url} alt="Halfa Media" className="h-7 w-auto" />
+          <img src={logoUrl} alt="Halfa Media" className="h-7 w-auto" />
           <span className="font-display tracking-wide">HALFA MEDIA</span>
         </div>
         <div className="flex items-center gap-6">
