@@ -5,7 +5,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Halfa Media - Video Editing Agency" },
-      { name: "description", content: "Unlimited video editing with a single subscription. Short-form, long-form, podcasts — delivered as fast as 24 hours." },
+      { name: "description", content: "Stop Editing. Start Growing. All your Reels, YouTube & podcast editing in one subscription. Unlimited revisions, any style. Delivered on time, every time." },
       { property: "og:title", content: "Halfa Media — Unlimited Video Editing" },
       { property: "og:description", content: "We handle the editing while you focus on growing." },
     ],
